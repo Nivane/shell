@@ -15,6 +15,4 @@ sed -i '100d' data.txt //-i表示直接处理文件内容，不输出显示
 统计某一行的长度
 sed -n '100p' data.txt | wc -c //wc -c统计字节数 wc -w统计词数
 
-将etc/passwd中root行筛选
-grep -n root /etc/passwd  //-n输出行号
-
+http://www.cnblogs.com/ginvip/p/6376049.html
